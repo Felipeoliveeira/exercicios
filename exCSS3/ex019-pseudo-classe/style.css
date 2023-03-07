@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'olondon';
+    src: url('fonts/OldLondon.ttf')format('truetype'), url('fonts/OldLondonAlternate.ttf')format('truetype'
+    ), url('fonts/Olondon_.otf')format('opentype'), url('fonts/Olondona.otf')format('opentype');
+}
+body{
+    background-color: rgb(138, 223, 138);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(24, 87, 24);
+}
+#principal{
+    font-family: 'olondon';
+    background-color: rgb(1, 51, 1);
+    text-align: center;
+    color: wheat;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h2{
+    color: rgb(30, 104, 30);
+}
+
+.texto{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight:500;
+}
+
+.sub{
+    background-color: rgba(70, 117, 70, 0.678);
+}
+.sub1{
+    background-color: rgba(141, 96, 96, 0.658);
+}
+.basico{
+    background-color: rgba(128, 128, 184, 0.527);
+    color: wheat;
+    font: normal normal 2em serif;
+}

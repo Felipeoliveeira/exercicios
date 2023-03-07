@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(65, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet(14, 100, 100);
+}
+    h1{
+        color: bisque;
+        background-color: blueviolet;
+    }

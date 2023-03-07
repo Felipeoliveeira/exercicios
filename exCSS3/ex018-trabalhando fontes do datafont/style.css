@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Olondon';
+    src: url('arqfontes/OldLondon.ttf'), url('arqfontes/OldLondonAlternate.ttf'), url('arqfontes/Olondon_.otf'), url('arqfontes/Olondona.otf');
+}
+*{
+    font-family: 'Olondon' ;
+}
+main{
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #4e4150;
+}
+body{
+    background-image: linear-gradient(to right, #EFCEFA,#8c6a94);
+}
+h1{
+    font-family: 'Olondon';
+    background-color: rgb(122, 118, 118);
+}
+h2{
+    font-family: 'Olondon' ;
+    background-color: rgb(119, 117, 117);
+    font-weight: normal;
+    font-size: normal;
+}

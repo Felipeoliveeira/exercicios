@@ -1,0 +1,23 @@
+@charset "UTF-8"
+
+*{
+    font-family: monospace;
+}
+main{
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #4e4150;
+}
+body{
+    background-image: linear-gradient(to right, #EFCEFA,#8c6a94);
+}
+h1{
+    background-color: rgb(122, 118, 118);
+    text-align: center;
+}
+h2{
+    background-color: rgb(119, 117, 117);
+}

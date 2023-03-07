@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo video hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+    <video width="350px" height="200" poster="imagens/thumb.jpg" controls>
+        <source src="midia/meu-videomp4.mp4" type="video/mp4">
+        <source src="midia/meu-videowebm.webm" type="video/mbm">
+        <source src="midia/meu-videomkv.mkv" type="video/wekv">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+    <h1>Video hospedado no servidor do youtube.</h1>
+    <p>Tipos de videos que estão hospedados em outro servidor ajuda a deixar o site leve, pois consome menos tráfego de dados.</p>
+    <iframe width="350" height="200" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1>Video hospedado no servidor do Vimeo.</h1>
+    <p>A vantagem e diferença entre youtube e vimeo, é qualidade de video e torna menos público.</p>
+    <iframe src="https://player.vimeo.com/video/259537654?h=02a36d5430" width="350" height="200" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

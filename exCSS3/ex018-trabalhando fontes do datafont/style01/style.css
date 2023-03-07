@@ -1,0 +1,17 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+main{
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 211, 152);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(168, 119, 54);
+}
+body{
+    background-image: linear-gradient(to left, rgb(146, 146, 228), rgb(111, 184, 111));
+}
+h1{
+    font-family: 'Great Vibes';
+}
